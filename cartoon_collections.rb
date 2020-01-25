@@ -1,34 +1,16 @@
-def roll_call_dwarves(dwarves)
-dwarves.each_with_index {|val, index| puts `#{index} #{val}`}
+def roll_call_dwarves# code an argument here
+  # Your code here
 end
 
-def summon_captain_planet(calls)
-calls.map {|call| `#{call.capitalize}!`}
+def summon_captain_planet# code an argument here
+  # Your code here
 end
 
-def long_planeteer_calls(calls)
-count = 0
-
-calls.each {|call|
-if call.length > 4
-    count++
-end
-}
-
-if count != 0
-return true
-else
-    return false
+def long_planeteer_calls# code an argument here
+  # Your code here
 end
 
-end
-
-def find_the_cheese(words)
-cheeses = ["cheddar", "camembert", "gouda"]
-words.each_with_index { |word, index|
-if cheeses.include?(word)
-    return word
-end
-}
-return "No word has matched"
+def find_the_cheese# code an argument here
+  # the array below is here to help
+  cheese_types = ["cheddar", "gouda", "camembert"]
 end
